@@ -20,7 +20,7 @@ def ana():
     version_test()
 
     for i in range(5):
-        print("v1")
+        print("v2")
 
 ana()
 
