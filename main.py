@@ -33,7 +33,7 @@ def ana():
     version_test()
 
     while True:
-        print("v1 v1")
+        print("program v2 oldu")
         print("deneme")
         time.sleep(2)
 
