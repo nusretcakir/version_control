@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import time
 
 def version_test():
 
@@ -19,9 +20,9 @@ def ana():
 
     version_test()
 
-    for i in range(5):
+    while True:
         print("Programın v1 sürümünü kullanmaktasınız.")
-
+        time.sleep(2)
 ana()
 
 
