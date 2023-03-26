@@ -6,7 +6,7 @@ import time
 def yeni_dosya_indir():
     url = "https://raw.githubusercontent.com/nusretcakir/version_control/master/main.py"
     r = requests.get(url)
-    open('main2.py', 'wb').write(r.content)
+    open('main.py', 'wb').write(r.content)
 
     url = "https://raw.githubusercontent.com/nusretcakir/version_control/master/v.txt"
     r = requests.get(url)
