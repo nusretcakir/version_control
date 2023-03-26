@@ -26,7 +26,6 @@ def version_test():
     if version != new_version:
         print("program v2 oldu") 
         yeni_dosya_indir()
-        exit()
 
 def ana():
 
