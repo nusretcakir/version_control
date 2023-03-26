@@ -21,7 +21,7 @@ def ana():
     version_test()
 
     while True:
-        print("Programın v1 sürümünü kullanmaktasınız.")
+        print("Programın v2 sürümünü kullanmaktasınız.")
         time.sleep(2)
 ana()
 
