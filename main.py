@@ -2,6 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
+
+def yeni_dosya_indir():
+    url = "https://raw.githubusercontent.com/nusretcakir/version_control/master/main.py"
+    r = requests.get(url)
+    open('main2.py', 'wb').write(r.content)
+
+
 def version_test():
 
     #programin yerel surumu
@@ -14,18 +21,16 @@ def version_test():
     
     if version != new_version:
         print("program guncel değil") 
+        yeni_dosya_indir()
         exit()
 
 def ana():
 
     version_test()
 
-    while True:
-        print("Programın v2 sürümünü kullanmaktasınız.")
+    for i in range(5):
+        print("v1 v1")
+        print("deneme")
         time.sleep(2)
+
 ana()
-
-
-
-
-
