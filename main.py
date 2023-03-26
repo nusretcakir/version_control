@@ -28,9 +28,9 @@ def ana():
 
     version_test()
 
-    for i in range(5):
-        print("v2")
-        print("test")
+    while True:
+        print("v1 v1")
+        print("deneme")
         time.sleep(2)
 
 ana()
